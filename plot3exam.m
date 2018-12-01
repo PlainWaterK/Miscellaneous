@@ -1,0 +1,14 @@
+a=(1:0.2:100);
+x=sin(a).*exp(-a*0.05);
+y=cos(a+pi/4).*exp(-a*0.05);
+z=a*exp(-4);
+plot3(x,y,z);
+hold on;
+x_z=zeros(1,length(x))-1;
+plot3(x_z,y,z);
+hold on;
+y_z=zeros(1,length(x))-1;
+plot3(x,y_z,z);
+hold on;
+z_z=zeros(1,length(x));
+plot3(x,y,z_z);
