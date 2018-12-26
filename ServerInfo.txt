@@ -4,3 +4,9 @@ PassWord: 8(Mnc9%%rrJoax5.
 
 
 wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/shadowsocks-libev.sh && bash shadowsocks-libev.sh
+
+ShadowSockets:
+Server IP        :  202.182.119.83 
+Server Port      :  9366 
+Password         :  jinjt4tc 
+Encryption Method:  aes-256-gcm 
